@@ -1,0 +1,27 @@
+{
+    "name": "ebs-hal-uc-avr",
+    "version": "0.0.1",
+    "description": "EBS uC HAL implementation for AVR Mega uCs",
+    "keywords": "ebs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ebs-universe/piolib-hal-uc-avr"
+    },
+    "authors": {
+        "name": "Chintalagiri Shashank",
+        "email": "shashank.chintalagiri@gmail.com",
+        "url": "https://github.com/chintal",
+        "maintainer": true
+    },
+    "license": "LGPL-3.0-or-later",
+    "homepage": "https://ebs-universe.github.io/piolib-hal-uc-avr",
+    "frameworks": "*",
+    "platforms": ["atmelavr"],
+    "dependencies": [
+        { 
+            "owner": "chintal",
+            "name": "ebs-ds",
+            "version": "^0.2.0"
+        }
+    ]
+  }
