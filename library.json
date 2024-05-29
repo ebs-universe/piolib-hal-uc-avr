@@ -1,6 +1,6 @@
 {
     "name": "ebs-hal-uc-avr",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "EBS uC HAL implementation for Atmel AVR uCs",
     "keywords": "ebs",
     "repository": {

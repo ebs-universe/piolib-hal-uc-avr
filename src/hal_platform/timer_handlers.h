@@ -19,9 +19,11 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 */
 
-#ifndef UART_HANDLERS_H
-#define UART_HANDLERS_H
+#ifndef TIMER_HANDLERS_H
+#define TIMER_HANDLERS_H
 
-extern volatile uint8_t __uart_handler_inclusion;
+#include <stdint.h>
+
+extern volatile uint8_t __timer_handler_inclusion;
 
 #endif
