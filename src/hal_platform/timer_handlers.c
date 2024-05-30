@@ -118,10 +118,10 @@ volatile uint8_t __timer_handler_inclusion;
     }
 
     ISR(TIMER2_COMPB_vect) {
-        #ifdef uC_TIMER1_OC1_IRQH
-            uC_TIMER2_OC1_IRQ_HANDLER();
+        #ifdef uC_TIMER2_OC1_IRQH
+            uC_TIMER2_OC2_IRQ_HANDLER();
         #endif
-        timer1_handler_oc1();
+        timer2_handler_oc1();
     }
 
 #endif

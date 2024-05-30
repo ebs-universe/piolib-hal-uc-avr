@@ -1,7 +1,6 @@
 /* 
    Copyright (c)
-     (c) 2024 Chintalagiri Shashank
-     (c) 2015-2016 Chintalagiri Shashank, Quazar Technologies Pvt. Ltd.
+   (c) 2024 Chintalagiri Shashank
       
    This file is part of
    Embedded bootstraps : Peripheral driver implementations : AVR
@@ -20,11 +19,25 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 */
 
-#ifndef TIMER_HANDLERS_H
-#define TIMER_HANDLERS_H
+#include <hal/uc/core.h>
+#include <avr/interrupt.h>
+#include "core_handlers.h"
+#include <handlers.h>
+#if uC_ENTROPY_ENABLED && uC_ENTROPY_SOURCE == 2
+#include "entropy_handlers.h"
+#endif
 
-#include <stdint.h>
+volatile uint8_t __core_handler_inclusion;
 
-extern volatile uint8_t __timer_handler_inclusion;
-
+#if uC_WDT_ENABLED || (uC_ENTROPY_ENABLED && uC_ENTROPY_SOURCE == 2) 
+    ISR(WDT_vect) {
+        #if uC_ENTROPY_ENABLED && uC_ENTROPY_SOURCE == 2
+            if (entropy_state.accumulating) {
+                wdt_entropy_isr();
+            }
+        #endif
+        #ifdef uC_WDT_IRQH
+            uC_WDT_IRQH();
+        #endif
+    }
 #endif

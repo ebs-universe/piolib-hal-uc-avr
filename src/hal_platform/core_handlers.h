@@ -20,11 +20,11 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 */
 
-#ifndef TIMER_HANDLERS_H
-#define TIMER_HANDLERS_H
+#ifndef CORE_HANDLERS_H
+#define CORE_HANDLERS_H
 
 #include <stdint.h>
 
-extern volatile uint8_t __timer_handler_inclusion;
+extern volatile uint8_t __core_handler_inclusion;
 
 #endif
