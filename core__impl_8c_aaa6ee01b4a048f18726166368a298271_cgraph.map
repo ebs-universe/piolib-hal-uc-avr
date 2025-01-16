@@ -1,0 +1,5 @@
+<map id="clock_set_default" name="clock_set_default">
+<area shape="rect" id="Node000001" title="Sets the clock to the default." alt="" coords="5,5,141,31"/>
+<area shape="rect" id="Node000002" href="$core__impl_8c.html#afb07e61a6a146769640a958fda7ba81a" title="Sets System Clock Prescaler." alt="" coords="189,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,15,175,15,175,21,142,21"/>
+</map>

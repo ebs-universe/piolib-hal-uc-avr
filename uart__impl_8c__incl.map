@@ -1,0 +1,11 @@
+<map id="hal_platform/uart_impl.c" name="hal_platform/uart_impl.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="28,5,211,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,108,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,33,78,70,74,66,107,29"/>
+<area shape="rect" id="Node000003" href="$gpio__impl_8h.html" title=" " alt="" coords="133,79,231,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,29,165,66,161,70,128,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="54,152,185,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,106,141,143,137,140,170,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="209,152,280,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="194,103,227,140,223,143,190,106"/>
+</map>

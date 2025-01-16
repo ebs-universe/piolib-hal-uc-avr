@@ -1,0 +1,13 @@
+<map id="hal_platform/core_handlers.c" name="hal_platform/core_handlers.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="159,5,370,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,111,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,33,105,77,104,72,231,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="135,79,250,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,33,216,71,212,67,251,29"/>
+<area shape="rect" id="Node000004" href="$core__handlers_8h.html" title=" " alt="" coords="274,79,399,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,29,317,67,313,71,275,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="423,79,514,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="298,28,424,72,422,77,297,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="301,152,372,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="339,104,339,138,334,138,334,104"/>
+</map>

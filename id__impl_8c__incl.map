@@ -1,0 +1,11 @@
+<map id="hal_platform/id_impl.c" name="hal_platform/id_impl.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="101,5,269,31"/>
+<area shape="rect" id="Node000002" href="$id__impl_8h.html" title=" " alt="" coords="88,79,171,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,33,149,69,145,66,174,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="195,79,291,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,29,227,66,223,70,193,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,112,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,106,82,144,78,140,116,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="137,152,263,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="143,102,181,140,177,144,139,106"/>
+</map>
